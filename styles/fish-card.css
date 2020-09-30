@@ -1,0 +1,10 @@
+.fish-card {
+    background-color: #dbfe87;
+    border: 2px solid black;
+    flex-basis: 21%;
+    margin-top: 2px;
+}
+.fish-card:hover {
+    background-color :#334195;
+    color: white;
+}

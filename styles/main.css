@@ -1,0 +1,35 @@
+@import "fish-card.css";
+@import "locations.css";
+
+body {
+    background-color: #ef6f6c;
+    margin: 0;
+}
+
+img {
+    width: 250px;
+}
+header {
+    
+    text-align: center;
+}
+main {
+    background-color: #4bc6b9;
+}
+.main-container {
+    display: flex;
+}
+
+.fish {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+.fish-container {
+    flex: 2;
+    flex-wrap: wrap;
+}
+
+.care {
+    flex: 1;
+}
