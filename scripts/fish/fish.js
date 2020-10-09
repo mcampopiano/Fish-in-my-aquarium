@@ -1,4 +1,4 @@
-// Renders individual fish objects
+// Renders individual fish objects in HTML
 
 export const Fish = (fishObj) => {
     return `
@@ -6,7 +6,7 @@ export const Fish = (fishObj) => {
         <div class="fish__item">
             <img src=${fishObj.image}>
             <p>Species: ${fishObj.species}</p>
-            <p>Length: ${fishObj.length}</p>
+            <p>Length: ${fishObj.length} cm </p>
             <p>Name: ${fishObj.name}</p>
             <p>Harvest Location: ${fishObj.harvest_location}</p>
             <p>Diet: ${fishObj.diet} </p>
