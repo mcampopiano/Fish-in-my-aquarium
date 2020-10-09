@@ -6,4 +6,6 @@ import { holyFish, soldierFish, unHolyFish } from "./fish/FishDataProvider.js";
 FishList();
 PopulateTips();
 LocationsHTML();
+holyFish();
+soldierFish();
 unHolyFish();
